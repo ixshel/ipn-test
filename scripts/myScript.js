@@ -41,12 +41,21 @@ var students = [{
         group: '5CV1'
     },
     {
+<<<<<<< HEAD
+        id: 2014301374,
+        name: 'Carlos',
+        lastName: 'Patino',
+        age: 23,
+        photo: 'https://image.flaticon.com/icons/svg/64/64096.svg',
+        group: '9cv11'
+=======
         id: 2012300171,
         name: 'Héctor',
         lastName: 'Ávila',
         age: 25,
         photo: 'https://image.flaticon.com/icons/svg/64/64096.svg',
         group: '9cv3'
+>>>>>>> add40dfcfa4e45df904ffee600ecc4e1301e5491
     }
 ];
 
