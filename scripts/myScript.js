@@ -33,6 +33,14 @@ var students = [{
         group: '6CV1'
     },
     {
+        id: 2012300309,
+        name: 'J.Antonio',
+        lastName: 'Camacho',
+        age: 25,
+        photo: 'https://image.flaticon.com/icons/svg/64/64096.svg',
+        group: '9CV11'
+    },
+    {
         id: 2009301294,
         name: 'Jr',
         lastName: 'Fortunato',
