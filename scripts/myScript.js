@@ -39,6 +39,14 @@ var students = [{
         age: 31,
         photo: 'https://image.flaticon.com/icons/svg/64/64096.svg',
         group: '5CV1'
+    },
+    {
+        id: 2014301374,
+        name: 'Carlos',
+        lastName: 'Patino',
+        age: 23,
+        photo: 'https://image.flaticon.com/icons/svg/64/64096.svg',
+        group: '9cv11'
     }
 ];
 
