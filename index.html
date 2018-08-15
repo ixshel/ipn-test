@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: white;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ipn Web App</title>
+    <link rel="stylesheet" href="./styles/myStyles.css">
+</head>
+
+<body>
+    <header>
+        <img class="left" src="./images/ipn.png" alt="Ipn logo">
+        <h1>Ipn web app</h1>
+        <img class="right" style="max-width: 7.5rem; width: 25%;" src="./images/esime.png" alt="Esime logo">
+    </header>
+    <section>
+        <h2> Training Demo </h2>
+        <p>
+            <u>Variables</u>: we define our variables with var and followed by an identifier (the name we will give to it) this
+            should be unique like in the example:
+            <br>
+            <code> var x = 6; </code>
+            <br> Other way to create a variable is:
+            <br>
+            <code>var myNewVar;</code>
+            <br> and the we can assign the value:
+            <br>
+            <code>myNewVar = 'Ixshel';</code>
+        </p>
+        <p>JavaScript data types, in JavaScript types are dynamic but is a good practice to tell what kind of data type are
+            you holding on a variable:</p>
+        <ul>
+            <li>Strings:
+                <code>'Ixshel'</code> or
+                <code>"Ixshel"</code>
+            </li>
+            <li>Numbers:
+                <code>10</code> or
+                <code>10.00</code>
+            </li>
+            <li>Booleans:
+                <code>true</code> or
+                <code>false</code>
+            </li>
+            <li>Arrays:
+                <code> var myArray = [ 1, "ixshel", { school: 'Ipn' }, true ]</code>
+            </li>
+            <li>Objects:
+                <code>var person = { firstName: 'Ixshel', lastName: 'Escamilla' }</code>
+            </li>
+            <li>Undefined</li>
+            <li>Null</li>
+        </ul>
+        <p>Also even we didnt write the code we have a way to know what type of data is it, we can achieve this with
+            <u>typeof Operator</u>
+            <code>typeof "Ixshel"</code> or
+            <code>typeof 3.1416</code>
+        </p>
+        <p>
+            What happens if a variable doesnt have a value? then we say is
+            <b>undefined</b> this is a type itself.
+        </p>
+        <p>
+            What happens if a variable is assigned with nothing? then we say is
+            <b>null</b> this is an Object.
+        </p>
+        <p>
+            <u>Scope</u>: this is the range of a variable, this can be global or local;
+            <br>
+            <ul>
+                <li>Global: you can access from any where of the code</li>
+                <li>Local: you can access to it only from the function that contains it</li>
+            </ul>
+            <br> example 1:
+            <pre>
+                <code style="background-color: inherit; color: black">
+                        // Global
+                        var me = 'Ixshel';
+                        function sayHi() {
+                            alert('Hi! ' + me);
+                        }
+        
+                        // Local
+                        function hiBack() {
+                            var you = 'Itzel';
+                            alert('Hi there! ' + you);
+                        }
+        
+                        sayHi();
+                        hiBack();
+        
+                        console.log(me); // will give 'Ixshel';
+                        console.log(you); // will throw an error;
+                </code>
+            </pre>
+            <br> example 2
+            <pre>
+                    for (let i = 0; i < 10; i++) {
+                        console.log(i);
+                      }
+                      console.log(i); // error
+            </pre>
+        </p>
+        <p>
+            <u>Closure</u>: is a function that is free of variables, it can execute father variables but it doesnt have any
+            by itself
+            <pre>
+                    function hi() {
+                        var me = 'Ixshel';
+                        function closure() {
+                          alert('Hey whats up, ' + me);
+                        }
+                        closure();
+                      }
+                      hi();
+            </pre>
+        </p>
+        <br>
+        <hr>
+        <br>
+    </section>
+    <footer>
+        <ul>
+            <li>
+                <a href="./ipn.html">Exercise A</a>
+            </li>
+            <li>Link 2</li>
+            <li>
+                <a href="https://ipn-js.firebaseapp.com/">home</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>

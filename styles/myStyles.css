@@ -1,0 +1,70 @@
+body,
+h1,
+p,
+header,
+footer {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: white;
+}
+
+body {
+    background-color: rgb(248, 248, 248);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+code {
+    background-color: gray;
+    color: white;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    text-align: center;
+    min-height: 5rem;
+}
+
+header>img {
+    display: inline-block;
+    width: 15%;
+    max-width: 4rem;
+    float: left;
+    margin: 0.5rem;
+}
+
+header>h1 {
+    display: inline-block;
+    text-align: center;
+    color: rgb(123, 0, 0);
+    margin: 1rem 0rem 0rem;
+}
+
+section {
+    padding: 2rem;
+}
+
+section>aside {
+    padding: 2rem;
+}
+
+footer {
+    background-color: rgb(123, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+footer>ul {
+    padding: 2rem;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}

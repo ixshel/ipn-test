@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: white;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ipn Web App</title>
+    <link rel="stylesheet" href="./styles/myStyles.css">
+</head>
+
+<body>
+    <header>
+        <img class="left" src="./images/ipn.png" alt="Ipn logo">
+        <h1>Ipn web app</h1>
+        <img class="right" style="max-width: 7.5rem; width: 25%;" src="./images/esime.png" alt="Esime logo">
+    </header>
+    <section>
+        <h2> Training Demo </h2>
+        <p>
+            In this section we will be writing our demo app, this is the main section of the html
+        </p>
+        <br>
+        <hr>
+        <br>
+        <label for="idNumber">
+            Identifier Number:
+            <input type="number" name="idNumber" id="idNumber">
+        </label>
+        <button onclick="getStudentInfo()">Search</button>
+        <aside>
+            <p>Student:</p>
+            <span id="studentSpan">No Data</span>
+            <span id="lastName"></span>
+            <span id="group"></span>
+            <img width="50rem" id="studentPhoto" alt="" srcset="">
+        </aside>
+    </section>
+    <footer>
+        <ul>
+            <li><a href="./ipn.html">Exercise A</a></li>
+            <li>Link 2</li>
+            <li><a href="https://ipn-js.firebaseapp.com/">home</a></li>
+        </ul>
+    </footer>
+</body>
+<script src="./scripts/myScript.js"></script>
+
+</html>
